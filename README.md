@@ -71,10 +71,10 @@ Both [Docker](https://docs.docker.com/get-started/overview/) and [NVIDIA Contain
 - Install [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker)
 
 Then in the root directory of the repository 3 scripts are provided to add convenience.
-docker-build.py
-docker-distroy.py
-docker-run.py
-docker-stop.py
+docker_build.py
+docker_destroy.py
+docker_run.py
+docker_stop.py
 
 ### Installation
 Check out the Colab code:
