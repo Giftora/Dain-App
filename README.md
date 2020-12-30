@@ -3,6 +3,7 @@
 This is the source code for the video interpolation application **Dain-App**, developed on top of the source code of **DAIN**
 [Dain GIT Project](https://github.com/baowenbo/DAIN)
 
+---
 
 ### Table of Contents
 1. [Introduction](#introduction)
@@ -16,6 +17,8 @@ This is the source code for the video interpolation application **Dain-App**, de
 1. [Training New Models](#training-new-models)
 1. [Google Colab Demo](#google-colab-demo)
 
+---
+
 ### Introduction
 Dain-App comes with a user interface and a command line script to help new users to start using it with little change to the code. You can also get the Windows binary from the build section.
 
@@ -26,6 +29,7 @@ You can see a few results from those Youtube videos.
 [Turning ANIME P1 to 60FPS](https://youtu.be/Auum01OEs8k).
 [Turning ANIME P2 to 60FPS](https://youtu.be/x67aYuZ-0YI).
 
+---
 
 ### Citation
 If you find the code and datasets useful in your research, please cite:
@@ -49,6 +53,8 @@ If you find the code and datasets useful in your research, please cite:
          year={2018}
     }	
 
+---
+
 ### Requirements and Dependencies
 - numba=0.51.2
 - numpy=1.19.2
@@ -63,6 +69,8 @@ If you find the code and datasets useful in your research, please cite:
 - tqdm=4.51.0
 - ffmpeg
 
+---
+
 ### Docker
 Containerised development enviroment using [NVIDIA Container Toolkit](https://github.com/NVIDIA/nvidia-docker).
 
@@ -76,14 +84,20 @@ Then in the root directory of the repository 4 scripts are provided to add conve
 - [docker_run.py](docker_run.py)
 - [docker_stop.py](docker_stop.py)
 
+---
+
 ### Installation
 Check out the Colab code:
 [<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/github/BurguerJohn/Dain-App/blob/master/Dain_App_Colab.ipynb)
 
 Remember you need to build the .cuda scripts before the app can work.
 
+---
+
 ### Running application with interface
     python my_design.py
+
+---
 
 ### Running application with command line
 You can see all commands for CLI using this code:
@@ -93,14 +107,22 @@ A example of a working code:
 
     python  my_design.py -cli --input "gif/example.gif" -o "example_folder/" -on "interpolated.gif" -m "model_weights/best.pth" -fh 3 --interpolations 2 --depth_awarenes 0 --loop 0 -p 0 --alpha 0 --check_scene_change 10 --png_compress 0 --crf 1 --pixel_upscale_downscale_before 1 --pixel_downscale_upscale_after 1 --pixel_upscale_after 1 --mute_ffmpeg 1 --split_size_x -1 --split_size_y -1 --split_pad 150 --half 0 --step_extract 1 --step_interpolate 1 --batch_size 1 --use_benchmark 0 --force_flow 1 --smooth_flow 0 --downscale -1 --fast_mode 0
 
+---
+
 ### Training New Models
 Currently Dain-App training code is broken, to train new models, use the DAIN github and import the models to Dain-App
+
+---
 
 ### Google Colab Demo
 [<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/github/BurguerJohn/Dain-App/blob/master/Dain_App_Colab.ipynb)
 
+---
+
 ### Contact
 [Gabriel Poetsch](mailto:griskai.yt@gmail.com)
+
+---
 
 ### License
 See [MIT License](https://github.com/BurguerJohn/Dain-App/blob/master/LICENSE)
