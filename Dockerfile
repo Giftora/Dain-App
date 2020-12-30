@@ -1,0 +1,2 @@
+FROM nvidia/cuda:latest
+
