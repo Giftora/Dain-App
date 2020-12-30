@@ -8,6 +8,7 @@ This is the source code for the video interpolation application **Dain-App**, de
 1. [Introduction](#introduction)
 1. [Citation](#citation)
 1. [Requirements and Dependencies](#requirements-and-dependencies)
+1. [Docker](#docker)
 1. [Installation](#installation)
 1. [Running application with interface](#running-application-with-interface)
 1. [Running application with command line](#running-application-with-command-line) 
@@ -61,6 +62,19 @@ If you find the code and datasets useful in your research, please cite:
 - torchvision=0.8.1+cu110
 - tqdm=4.51.0
 - ffmpeg
+
+### Docker
+Containerised development enviroment using [NVIDIA Container Toolkit](https://github.com/NVIDIA/nvidia-docker).
+
+Both [Docker](https://docs.docker.com/get-started/overview/) and [NVIDIA Container Toolkit](https://github.com/NVIDIA/nvidia-docker) must be installed.
+- Install [Docker](https://docs.docker.com/get-docker/)
+- Install [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker)
+
+Then in the root directory of the repository 3 scripts are provided to add convenience.
+docker-build.py
+docker-distroy.py
+docker-run.py
+docker-stop.py
 
 ### Installation
 Check out the Colab code:
