@@ -78,11 +78,11 @@ Both [Docker](https://docs.docker.com/get-started/overview/) and [NVIDIA Contain
 - Install [Docker](https://docs.docker.com/get-docker/)
 - Install [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker)
 
-Then in the root directory of the repository 4 scripts are provided to add convenience.
-- [docker_build.py](docker_build.py)
-- [docker_destroy.py](docker_destroy.py)
-- [docker_run.py](docker_run.py)
-- [docker_stop.py](docker_stop.py)
+Then in the docker directory of the repository 4 scripts are provided to add convenience.
+- [docker_build.sh](docker_build.sh)
+- [docker_destroy.sh](docker_destroy.sh)
+- [docker_run.sh](docker_run.sh)
+- [docker_stop.sh](docker_stop.sh)
 
 ---
 
