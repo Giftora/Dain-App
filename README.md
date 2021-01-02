@@ -60,7 +60,7 @@ If you find the code and datasets useful in your research, please cite:
 - numpy=1.19.2
 - opencv-python=4.4.0.46
 - pillow=8.0.1
-- pyqt5=5.15.1
+- [pyqt5](https://www.riverbankcomputing.com/static/Docs/PyQt5/)=5.15.1 
 - python=3.8.5
 - scikit-learn=0.23.2
 - scipy=1.5.4
