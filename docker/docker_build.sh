@@ -1,2 +1,2 @@
 #/bin/bash
-docker build -t dain-app ../.
+docker build -t dain-app .
