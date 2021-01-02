@@ -84,6 +84,13 @@ Then in the docker directory of the repository 4 scripts are provided to add con
 - [docker_run.sh](docker_run.sh)
 - [docker_stop.sh](docker_stop.sh)
 
+TO-DO 
+Get docker working
+Add nvidia ffmpeg
+Move patrion and discord links to about me section
+Add better auto detection for settings
+Reorginize UI
+
 ---
 
 ### Installation
